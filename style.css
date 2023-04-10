@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    position: relative;
+}
+
+.size {
+    width: 250px;
+    height: auto;
+}
+
+.dspl-flex {
+    display: flex;
+}
+
+.container-news {
+    display: flex;
+    padding: 5px;
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    width: 290px;
+    transform: rotate(6deg);
+    color: white;
+    text-shadow: 1px 4px 8px black;
+    letter-spacing: 1px;
+}
