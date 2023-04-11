@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -9,18 +9,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="init()">
     <div class="container1">
         <div class="container2">
             <div>
-                <img class="size" src="img/personnage.png" alt="personnage">
+                <img id="perso" class="size" src="img/personnage.png" alt="personnage">
+                <div id="thought1" class="thought dspl-none">
+                    <p id="paraph1">
+                        Je dois consulter mes mails !
+                    </p>
+                    <p id="paraph2" class="dspl-none">
+                        Je dois appeler 📱 ma mère.
+                    </p>
+                </div>
+                <div id="speech1" class="speech dspl-none">
+                    <p>
+                        Bonjour Maman !
+                        je viens d'obtenir mon diplôme.
+                    </p>
+                </div>
+                <div id="end" class="dspl-none speech-end">
+                    <p>
+                        C'est un secret, ce n'est pas sa mère qui pleure mais c'est Patrick ! <br><br>
+                        Merci à mes mentors, aux évaluateurs, aux professeurs et aux collègues. <br>
+                        Bien sûr, sans oublier tous les services OpenClassrooms. <br>
+                        Merci à vous qui êtes entrain de suivre ce message !
+                    </p>
+                </div>
             </div>
-            <div>
+            <div id="speech2" class="speech-mam dspl-none">
+                <p>
+                    Bonjour mon fils!
+                    Quelle bonne nouvelle !
+                </p>
+                <img src="img/icon/crying-89.gif" alt="visage en pleurs">
+            </div>
+            <div id="laptop" class="dspl-none">
                 <img src="img/laptop.png" alt="laptop">
             </div>
         </div>
+
         <div class="container-news">
-            <p>
+            <p id="laptop-text" class="dspl-none">
                 Patrick, nous avons le plaisir de vous annoncer que le jury a validé votre formation. <br> Félicitations
                 !
                 <br>
