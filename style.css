@@ -99,9 +99,9 @@ p {
 .speech::before {
     content: "";
     position: absolute;
-    bottom: -10px;
+    bottom: -8px;
     /* valeur un peu supérieure à la longueur de la flèche */
-    left: -29px;
+    left: -26px;
     border-left: 0px solid transparent;
     /* largeur initiale de la partie gauche de la flèche (ici 0) */
     border-right: 12px solid transparent;
